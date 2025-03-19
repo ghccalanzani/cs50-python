@@ -3,7 +3,7 @@ nomeArquivo = nomeArquivo.strip().lower()
 
 if nomeArquivo.endswith('.gif'):
     print('image/gif')
-elif nomeArquivo.endswith('.jpg') | nomeArquivo.endswith('.jpeg'):
+elif nomeArquivo.endswith('.jpg') or nomeArquivo.endswith('.jpeg'):
     print('image/jpeg')
 elif nomeArquivo.endswith('.png'):
     print('image/png')
