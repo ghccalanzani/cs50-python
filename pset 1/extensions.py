@@ -1,4 +1,4 @@
-nomeArquivo = input('Nome da arquivo: ')
+nomeArquivo = input('Nome do arquivo: ')
 nomeArquivo = nomeArquivo.strip().lower()
 
 if nomeArquivo.endswith('.gif'):
