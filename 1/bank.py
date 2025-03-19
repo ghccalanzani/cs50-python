@@ -1,4 +1,4 @@
-resposta = input('Greeting: ')
+resposta = input('Saudação: ')
 resposta = resposta.lower().strip()
 
 if resposta.startswith('hello'):
