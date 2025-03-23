@@ -1,5 +1,4 @@
-nomeArquivo = input('Nome do arquivo: ')
-nomeArquivo = nomeArquivo.strip().lower()
+nomeArquivo = input('Nome do arquivo: ').strip().lower()
 
 if nomeArquivo.endswith('.gif'):
     print('image/gif')
